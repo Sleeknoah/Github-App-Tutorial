@@ -216,7 +216,7 @@ fun RepositoryBody(uiState: ViewState) {
         LazyColumn(
             Modifier
                 .fillMaxSize()
-                .padding(top = 12.dp)) {
+                .padding(top = 12.dp, bottom = 24.dp)) {
             items(items = it){ repo ->
                 UserRepositoryCards(item = repo)
             }

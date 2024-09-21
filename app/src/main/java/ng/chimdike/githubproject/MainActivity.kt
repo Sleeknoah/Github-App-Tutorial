@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
             GithubProjectTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     RootScreen(
-                        modifier = Modifier.padding(innerPadding)
+                        modifier = Modifier.padding(top = innerPadding.calculateTopPadding(), bottom = innerPadding.calculateBottomPadding())
                     )
                 }
             }

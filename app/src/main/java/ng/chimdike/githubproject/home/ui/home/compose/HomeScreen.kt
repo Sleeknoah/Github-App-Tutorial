@@ -207,7 +207,7 @@ fun UserSuccessLayout(
         LazyColumn(
             Modifier
                 .fillMaxSize()
-                .padding(top = 12.dp)) {
+                .padding(top = 12.dp, bottom = 24.dp)) {
             itemsIndexed(userList) { index, user ->
                 UserCards(name = user.login, url = user.avatarUrl) {
                     viewModel.selectUser(user)
