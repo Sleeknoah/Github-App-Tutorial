@@ -22,7 +22,6 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -30,11 +29,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavHostController
 import com.chimdike.home.domain.entity.UserInfoEntity
-import com.chimdike.home.ui.components.UserRepositoryCards
+import ng.chimdike.githubproject.home.ui.components.UserRepositoryCards
 import com.chimdike.ui_compose.compose.GreTypography
 import com.chimdike.ui_compose.compose.ImageLoader
 import ng.chimdike.ui_compose.NetworkImageLoader

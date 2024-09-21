@@ -1,4 +1,4 @@
-package com.chimdike.home.ui.components
+package ng.chimdike.githubproject.home.ui.components
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -31,7 +31,6 @@ import com.chimdike.ui_compose.compose.ImageLoader
 import com.chimdike.ui_compose.compose.color.GithubLightGrey
 import com.chimdike.ui_compose.compose.color.UserLoginTextColor
 import ng.chimdike.ui_compose.R
-import ng.chimdike.githubproject.home.ui.components.TopicsGridComposable
 
 @Composable
 fun UserRepositoryCards(
